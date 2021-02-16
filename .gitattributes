@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+from sklearn.cluster import KMeans
+model = KMeans(n_clusters=k)
+model.fit(data)
+model.predict(samples)
