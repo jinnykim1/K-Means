@@ -1,7 +1,7 @@
 from sklearn.cluster import KMeans
 #클러스터의 개수 지정(n개)
 num_clusters = 3
-#알맞은 매트릭스 Z 삽입
+#데이터셋 Z 삽입
 km = KMeans(n_clusters=num_clusters)
 km.fit(Z)
 
